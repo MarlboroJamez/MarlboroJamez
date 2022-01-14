@@ -25,7 +25,7 @@
 
 - 📄 Download Resume [https://marlborojamez.co.za/](https://marlborojamez.co.za/)
 
-- ⚡ Fun fact **I'm addicted to learning; I tend lose track of my day's & time :P**
+- ⚡ Fun fact **I'm addicted to learning; I tend to lose track of my days & time :P**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
