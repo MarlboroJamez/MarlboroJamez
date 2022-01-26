@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm James Williams - Marlborojamez</h1>
-<h3 align="center">Passionate Full Stack Engineer, with interest in Security Research & Machine Learning!</h3>
+<h3 align="center">Passionate Full Stack Engineer, with interest in Security Research & Machine/Deep Learning!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=marlborojamez&label=Profile%20views&color=0e75b6&style=flat" alt="marlborojamez" /> </p>
 
@@ -13,7 +13,7 @@
 
 - 👯 Sort Visualization Algorithms [Sort Visualization](https://github.com/MarlboroJamez/machine-learning/tree/main/sorting-visualiser)
 
-- 🤝 AI Integration - Chat Bot [AI Chat Bot](https://github.com/MarlboroJamez/machine-learning/tree/main/ai-chatbot)
+- 🤝 Machine Learning/Deep Learning - Studies [AI/ML/DL](https://github.com/MarlboroJamez/machine-learning/tree/main/tensorflow)
 
 - 👨‍💻 Live Project Demo's + Live Stock Screener [https://marlborojamez.co.za/](https://marlborojamez.co.za/)
 
