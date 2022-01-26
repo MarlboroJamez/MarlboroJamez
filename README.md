@@ -9,7 +9,7 @@
 
 - 🔭 Path Visualization - Dijkstra's Algo [Path Visualizer Algorithms](https://github.com/MarlboroJamez/machine-learning/tree/main/path-visualiser-algorithms)
 
-- 🌱 Currently Learning **Linear Progression, Deep Learning, AI**
+- 🌱 Currently Learning **Machine\Deep Learning (AI)**
 
 - 👯 Sort Visualization Algorithms [Sort Visualization](https://github.com/MarlboroJamez/machine-learning/tree/main/sorting-visualiser)
 
