@@ -13,7 +13,7 @@
 
 - 👯 Sort Visualization Algorithms [Sort Visualization](https://github.com/MarlboroJamez/machine-learning/tree/main/sorting-visualiser)
 
-- 🤝 Machine Learning/Deep Learning - Studies [AI/ML/DL](https://github.com/MarlboroJamez/machine-learning/tree/main/tensorflow)
+- 🤝 Machine Learning/Deep Learning - Studies [AI/ML/DL](https://github.com/MarlboroJamez/machine-learning/tree/main/tensorflow-DL-or-ML)
 
 - 👨‍💻 Live Project Demo's + Live Stock Screener [https://marlborojamez.co.za/](https://marlborojamez.co.za/)
 
