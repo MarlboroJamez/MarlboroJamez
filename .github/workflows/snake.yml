@@ -1,0 +1,35 @@
+name: Generate contribution snake
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate snake assets
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%230ea5a8&color_dots=%23ebedf0,%23b6f2ed,%2363e6e2,%230ea5a8,%230f766e
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23ff6b9d&color_dots=%23111927,%23164e63,%230e7490,%2306b6d4,%2363e6e2
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          build_dir: dist
+          target_branch: output
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
