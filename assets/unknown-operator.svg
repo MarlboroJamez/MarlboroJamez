@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">MarlboroJamez — Unknown Operator</title>
+  <desc id="desc">A dark intercepted-signal interface for an unidentified builder of intelligent systems.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07080b" />
+      <stop offset="0.58" stop-color="#090b10" />
+      <stop offset="1" stop-color="#030405" />
+    </linearGradient>
+    <linearGradient id="redline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff334f" stop-opacity="0" />
+      <stop offset="0.35" stop-color="#ff334f" />
+      <stop offset="1" stop-color="#ff334f" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="redglow">
+      <stop offset="0" stop-color="#ff334f" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#ff334f" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cyanglow">
+      <stop offset="0" stop-color="#5ce1e6" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#5ce1e6" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="microgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.75" fill="#cbd5e1" opacity="0.08" />
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.018" />
+    </pattern>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#ff334f" flood-opacity="0.26" />
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="5" y="5" width="1190" height="420" rx="20" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="5" y="5" width="1190" height="420" rx="20" fill="url(#background)" />
+    <rect x="5" y="5" width="1190" height="420" rx="20" fill="url(#microgrid)" />
+    <rect x="5" y="5" width="1190" height="420" rx="20" fill="url(#scanlines)" />
+    <circle cx="1080" cy="160" r="330" fill="url(#redglow)" />
+    <circle cx="530" cy="460" r="300" fill="url(#cyanglow)" />
+
+    <path d="M0 84 H1200" stroke="#242832" stroke-width="1" />
+    <path d="M724 84 V430" stroke="#242832" stroke-width="1" />
+    <path d="M0 386 H1200" stroke="#242832" stroke-width="1" />
+    <rect x="5" y="82" width="1190" height="2" fill="url(#redline)" opacity="0.8" />
+
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.7">
+      <text x="42" y="48" fill="#ff334f">INTERCEPTED SIGNAL</text>
+      <text x="197" y="48" fill="#454b57">//</text>
+      <text x="220" y="48" fill="#7c8492">NODE MJ-01</text>
+      <text x="1158" y="48" text-anchor="end" fill="#7c8492">ACCESS LEVEL: UNRESOLVED</text>
+      <circle cx="1145" cy="67" r="3" fill="#ff334f" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="1135" y="70" text-anchor="end" fill="#5a616d">LIVE</text>
+    </g>
+
+    <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text x="58" y="171" fill="#f2f3f5" font-size="72" font-weight="800" letter-spacing="7">MARLBORO</text>
+      <text x="58" y="249" fill="#ff334f" font-size="92" font-weight="900" letter-spacing="9" filter="url(#shadow)">JAMEZ</text>
+
+      <text x="61" y="292" fill="#5ce1e6" font-size="12" font-weight="700" letter-spacing="3.2">MACHINE INTELLIGENCE // UNKNOWN TERRITORY</text>
+      <text x="61" y="336" fill="#c5c9d0" font-size="21" font-weight="600" letter-spacing="3.4">BUILDING IN THE DARK.</text>
+      <text x="61" y="365" fill="#535b68" font-size="11" letter-spacing="2.2">NO TITLE  //  NO LANE  //  NO DAYLIGHT</text>
+    </g>
+
+    <g opacity="0.22" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="900">
+      <text x="61" y="249" fill="#5ce1e6" font-size="92" letter-spacing="9">JAMEZ
+        <animate attributeName="x" values="61;61;67;57;61;61" keyTimes="0;0.74;0.76;0.78;0.8;1" dur="5.3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;0.7;0.25;0;0" keyTimes="0;0.74;0.76;0.78;0.8;1" dur="5.3s" repeatCount="indefinite" />
+      </text>
+    </g>
+
+    <g transform="translate(886 224)">
+      <circle r="123" fill="none" stroke="#2d333d" stroke-width="1" stroke-dasharray="2 9" />
+      <circle r="92" fill="none" stroke="#ff334f" stroke-opacity="0.24" stroke-width="1" />
+      <circle r="58" fill="#090b10" stroke="#5ce1e6" stroke-opacity="0.4" stroke-width="1" />
+      <circle r="12" fill="#ff334f" fill-opacity="0.14" stroke="#ff334f" stroke-width="1.5" filter="url(#softGlow)" />
+
+      <g fill="none" stroke="#59616e" stroke-width="1">
+        <path d="M-98 -52 L-47 -21 L0 0 L48 -38 L99 -67" />
+        <path d="M-112 36 L-58 19 L0 0 L55 33 L108 62" />
+        <path d="M-40 -104 L-22 -50 L0 0 L29 62 L44 111" />
+        <path d="M77 -91 L48 -38 L55 33 L82 88" />
+      </g>
+
+      <g fill="#0b0d12" stroke="#5ce1e6" stroke-width="1.3">
+        <circle cx="-98" cy="-52" r="5" />
+        <circle cx="-47" cy="-21" r="4" />
+        <circle cx="48" cy="-38" r="5" />
+        <circle cx="99" cy="-67" r="4" />
+        <circle cx="-112" cy="36" r="4" />
+        <circle cx="-58" cy="19" r="5" />
+        <circle cx="55" cy="33" r="4" />
+        <circle cx="108" cy="62" r="5" />
+        <circle cx="-40" cy="-104" r="4" />
+        <circle cx="-22" cy="-50" r="4" />
+        <circle cx="29" cy="62" r="5" />
+        <circle cx="44" cy="111" r="4" />
+        <circle cx="77" cy="-91" r="5" />
+        <circle cx="82" cy="88" r="4" />
+      </g>
+
+      <g>
+        <path d="M0 -123 A123 123 0 0 1 106.5 -61.5" fill="none" stroke="#ff334f" stroke-width="3" stroke-linecap="round" filter="url(#softGlow)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite" />
+        </path>
+        <line x1="0" y1="0" x2="0" y2="-118" stroke="#ff334f" stroke-opacity="0.22" stroke-width="1">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite" />
+        </line>
+      </g>
+
+      <text y="4" text-anchor="middle" fill="#eef1f4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700">?</text>
+    </g>
+
+    <g transform="translate(1032 117)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" letter-spacing="1.2">
+      <text fill="#59616e">IDENTITY</text>
+      <text y="17" fill="#ff334f">[REDACTED]</text>
+    </g>
+    <g transform="translate(1032 319)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" letter-spacing="1.2">
+      <text fill="#59616e">STATUS</text>
+      <text y="17" fill="#5ce1e6">BUILDING</text>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" letter-spacing="1.5">
+      <text x="42" y="408" fill="#4e5561">SIGNAL  98.7%</text>
+      <text x="600" y="408" text-anchor="middle" fill="#4e5561">LAST SEEN  03:17</text>
+      <text x="1158" y="408" text-anchor="end" fill="#ff334f">DAYLIGHT  CONNECTION REFUSED</text>
+    </g>
+
+    <rect x="5" y="84" width="1190" height="4" fill="#ff334f" opacity="0.07">
+      <animate attributeName="y" values="84;382;84" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.12;0" dur="7s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <rect x="5" y="5" width="1190" height="420" rx="20" fill="none" stroke="#2a2e37" stroke-width="1.5" />
+  <path d="M25 5 H170" stroke="#ff334f" stroke-width="2" />
+  <path d="M1030 425 H1175" stroke="#5ce1e6" stroke-opacity="0.55" stroke-width="1" />
+</svg>
